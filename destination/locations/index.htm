@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Motorycycling New Zealand</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="..\node_modules\bootstrap\dist\css\main.css" />
+    <link rel="stylesheet" href="main.scss" />
+  </head>
+  <body>
+    <header class="header fixed-top bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.htm">Motorcycling NZ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.htm#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../history.htm">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="index.htm">Locations</a>
+              </li>
+              <li class="nav-item dropdown"></li>
+              <li class="nav-item">
+                <a class="nav-link" href="../tips.htm">Tips</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mt-5">
+      <section
+        aria-label="table of contents"
+        class="container px-2 py-5"
+        id="custom-cards"
+      >
+        <h1 class="display-5">Locations</h1>
+
+        <div
+          class="row row-cols-1 row-cols-md-3 align-items-center g-4 py-5"
+        >
+          <!-- Card item -->
+          <div class="col">
+            <div
+              class="card location-card overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            >
+              <a href="auckland.htm" class="text-reset text-decoration-none">
+                <img
+                  class="card-img-top object-fit-cover rounded-4"
+                  src="../assets/media/auckland/pexels-ollie-craig-18201085.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-flex flex-column justify-content-end p-3 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="h5 mb-3 lh-1 fw-bold">Auckland</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card item -->
+          <div class="col">
+            <div
+              class="card location-card overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            >
+              <a href="wellington.htm" class="text-reset text-decoration-none">
+                <img
+                  class="card-img-top object-fit-cover rounded-4"
+                  src="../assets/media/wellington/pexels-donovan-kelly-18062808.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-flex flex-column justify-content-end p-3 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="h5 mb-3 lh-1 fw-bold">Wellington</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card item -->
+          <div class="col">
+            <div
+              class="card location-card overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            >
+              <a href="tauranga.htm" class="text-reset text-decoration-none">
+                <img
+                  class="card-img-top object-fit-cover rounded-4"
+                  src="../assets/media/tauranga/russel-street-kaiatefalls.jpg"
+                  alt=""
+                />
+                <div
+                  class="d-flex flex-column justify-content-end p-3 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="h5 mb-3 lh-1 fw-bold">Tauranga</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+
+      </section>
+    </main>
+    <footer class="container">
+      <div
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          © Copyright 2023. All rights reserved Zarek Lacsamana
+        </p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="index.htm#about" class="nav-link px-2 text-body-secondary"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="history.htm" class="nav-link px-2 text-body-secondary"
+              >History</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="locations.htm" class="nav-link px-2 text-body-secondary"
+              >Locations</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="tips.htm" class="nav-link px-2 text-body-secondary"
+              >Tips</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
